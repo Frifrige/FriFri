@@ -26,9 +26,25 @@ class LocalizationWrapperState extends State<LocalizationWrapper> {
     locale = widget.locale;
   }
 
+  void setLocale(String langCode) {
+    switch (langCode) {
+      case 'en':
+        _setLocale(langCode);
+
+      case 'ru':
+        _setLocale(langCode);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return LocalizaitonScope(locale: locale, child: widget.child);
+  }
+
+  void _setLocale(String langCode) {
+    setState(() {
+      locale = Locale(langCode);
+    });
   }
 }
 

@@ -18,7 +18,7 @@ class Application extends StatelessWidget {
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
       locale: LocalizaitonScope.of(context).locale,
-      home: const NavBar(),
+      home: const MoreScreen(),
     );
   }
 }

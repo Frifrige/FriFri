@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "538774974968",
+    "project_id": "frifri-380f1",
+    "storage_bucket": "frifri-380f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538774974968:android:5271fd51ae3d12de1de60d",
+        "android_client_info": {
+          "package_name": "com.example.frifri"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4mocXhwwTr-DZteh6bXO6528e36ErVts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

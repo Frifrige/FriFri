@@ -220,7 +220,7 @@ class _ServiceScreenState extends State<ServiceScreen> {
                   ),
                 ),
                 SizedBox(
-                  width: 9,
+                  width: 9
                 ),
                 Text(
                   "Компенсация",

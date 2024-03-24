@@ -1,6 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
+import 'package:frifri/src/common/router/router.dart';
 import 'package:frifri/src/features/more/presentation/screens/more_screen.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:frifri/src/features/more/wrappers/localization_wrapper.dart';
@@ -16,12 +17,12 @@ class Application extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
       locale: LocalizaitonScope.of(context).locale,
-      home:  ServiceScreen(),
+      routerConfig: router,
     );
   }
 }

@@ -1,4 +1,7 @@
 import 'package:flutter/widgets.dart';
+import 'package:frifri/src/features/direct_flights/data/data_sources/direct_flights_data_source.dart';
+import 'package:frifri/src/features/direct_flights/data/repositories/direct_fligths_repository_impl.dart';
+import 'package:frifri/src/features/direct_flights/domain/repositories/direct_flights_repository.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// {@template dependencies}
@@ -9,11 +12,16 @@ base class Dependencies {
 
 /* start dependency region. */
   late SharedPreferences sharedPreferences;
+  late final DirectFligthsRepositoryImpl directFligthsRepository;
+  late final DirectFlightsDataSource directFlightsDataSource;
 /* end dependency region. */
 
   /// Iniatilziation dependencies.
   Future<void> initialize() async {
     sharedPreferences = await SharedPreferences.getInstance();
+    directFlightsDataSource = DirectFlightsDataSource();
+    directFligthsRepository =
+        DirectFligthsRepositoryImpl(directFlightsDataSource);
   }
 
   /// Get dependencies in the widget tree via [context].

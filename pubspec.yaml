@@ -41,8 +41,10 @@ dependencies:
     sdk: flutter
   intl: any
   flutter_svg: ^2.0.10+1
-  go_router: ^13.2.0
-  firebase_core: ^2.27.1
+  go_router: ^13.2.1
+  firebase_core: 2.27.0
+  cloud_firestore: ^4.15.8
+  google_fonts: 6.1.0
 
 dev_dependencies:
   flutter_test:

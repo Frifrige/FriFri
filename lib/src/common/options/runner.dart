@@ -16,10 +16,8 @@ base class _RunnerConf {
 
   const _RunnerConf._();
   Future<void> runApplication() async {
-     WidgetsFlutterBinding.ensureInitialized();
+    WidgetsFlutterBinding.ensureInitialized();
     FlutterError.onError = (dtl) {
-     
-
       FlutterError.presentError(dtl);
       logger.e('FlutterError', error: dtl.exception, stackTrace: dtl.stack);
       if (kReleaseMode) exit(1);

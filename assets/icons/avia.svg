@@ -1,0 +1,22 @@
+<svg width="151" height="32" viewBox="0 0 151 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_316_1202" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="9" y="4" width="133" height="22">
+<rect width="133" height="22" transform="matrix(1 0 0 -1 9 26)" fill="#8C8C8C"/>
+</mask>
+<g mask="url(#mask0_316_1202)">
+<circle cx="75" cy="169.5" r="159.5" stroke="black" stroke-opacity="0.08" stroke-miterlimit="12.8023" stroke-dasharray="3 3"/>
+</g>
+<g clip-path="url(#clip0_316_1202)">
+<path d="M71.4727 19.4H73.425L77.8058 11.399H82.8445C82.8445 11.399 85.7729 11.399 85.7729 10C85.7729 8.60002 82.8445 8.60002 82.8445 8.60002H77.8058L73.425 0.600018H71.4727L73.9013 8.60002H70.4L68.2027 6.59902H66.2505L67.8133 9.99902L66.2505 13.4H68.2027L70.4 11.399H73.9013L71.4727 19.4Z" fill="#DF2018"/>
+</g>
+<ellipse cx="8.65954" cy="24" rx="7.80896" ry="8" fill="black" fill-opacity="0.04"/>
+<ellipse cx="8.65965" cy="24" rx="4.8806" ry="5" fill="black" fill-opacity="0.04"/>
+<ellipse cx="1.95224" cy="2" rx="1.95224" ry="2" transform="matrix(-1 0 0 1 10.6118 22)" fill="#5B9CEC"/>
+<ellipse cx="142.388" cy="24" rx="7.80896" ry="8" fill="black" fill-opacity="0.04"/>
+<ellipse cx="142.388" cy="24" rx="4.8806" ry="5" fill="black" fill-opacity="0.04"/>
+<ellipse cx="1.95224" cy="2" rx="1.95224" ry="2" transform="matrix(-1 0 0 1 144.34 22)" fill="#5B9CEC"/>
+<defs>
+<clipPath id="clip0_316_1202">
+<rect width="19.5224" height="20" fill="white" transform="translate(66.2505)"/>
+</clipPath>
+</defs>
+</svg>

@@ -19,7 +19,7 @@ class _AviaScreenState extends State<AviaScreen> {
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const SizedBox(height: 70),
+            const SizedBox(height: 60),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 15),
               child: Row(
@@ -65,7 +65,8 @@ class _AviaScreenState extends State<AviaScreen> {
             SizedBox(
               height: 20,
             ),
-            Expanded(
+            Container(
+              height: 510,
               child: ListView.separated(
                 padding: EdgeInsets.symmetric(horizontal: 25),
                 itemBuilder: (BuildContext context, int index) {
@@ -120,7 +121,30 @@ class _AviaScreenState extends State<AviaScreen> {
                 },
                 itemCount: 4,
               ),
-            )
+            ),
+            const Divider(
+              height: 20,
+              color: Colors.grey,
+            ),
+            Container(height: 15),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                SvgPicture.asset("assets/icons/avia_ic_2.svg"),
+                Text("   Перейти в Календарь цен")
+              ],
+            ),
+            Container(height: 15),
+            Container(
+              width: 327,
+              height: 48,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: Color(0xffE30E05),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Text("от 23 690 ₽ ", style: TextStyle(fontSize: 16, color: Colors.white),),
+            ),
           ],
         ),
       ),

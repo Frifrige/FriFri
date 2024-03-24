@@ -1,6 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
+import 'package:frifri/src/features/avia/presentation/aviva.dart';
 import 'package:frifri/src/features/more/presentation/screens/more_screen.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:frifri/src/features/more/wrappers/localization_wrapper.dart';
@@ -21,7 +22,7 @@ class Application extends StatelessWidget {
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
       locale: LocalizaitonScope.of(context).locale,
-      home:  ServiceScreen(),
+      home:  AviaScreen(),
     );
   }
 }

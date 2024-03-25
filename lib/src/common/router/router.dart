@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:frifri/src/features/direct_flights/presentation/screens/avia_ticket_screen.dart';
-import 'package:frifri/src/features/direct_flights/presentation/screens/direct_flights_screen.dart';
 import 'package:go_router/go_router.dart';
 
 final router = GoRouter(

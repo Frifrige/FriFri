@@ -18,18 +18,21 @@ class CountryTextWidget extends StatelessWidget {
   final String subTitle;
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: crossAxisAlignment,
-      children: [
-        Text(
-          title,
-          style: countryTopTextStyle,
-        ),
-        Text(
-          subTitle,
-          style: countryBottomTextStyle,
-        )
-      ],
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
+      child: Column(
+        crossAxisAlignment: crossAxisAlignment,
+        children: [
+          Text(
+            title,
+            style: countryTopTextStyle,
+          ),
+          Text(
+            subTitle,
+            style: countryBottomTextStyle,
+          )
+        ],
+      ),
     );
   }
 }

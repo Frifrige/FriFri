@@ -12,14 +12,21 @@ class AviaTimeWidget extends StatelessWidget {
   final String time;
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: <Widget>[
-        SvgPicture.asset('assets/icons/avia.svg'),
-        Text(
-          time,
-          style: GoogleFonts.roboto(fontSize: 12, fontWeight: FontWeight.w400),
-        ),
-      ],
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(0, 16, 0, 28),
+      child: Column(
+        children: <Widget>[
+          SvgPicture.asset(
+            'assets/icons/avia.svg',
+            height: 22,
+          ),
+          Text(
+            time,
+            style:
+                GoogleFonts.roboto(fontSize: 12, fontWeight: FontWeight.w400),
+          ),
+        ],
+      ),
     );
   }
 }

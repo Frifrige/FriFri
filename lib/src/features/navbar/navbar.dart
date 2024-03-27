@@ -48,6 +48,8 @@ class _NavBarState extends State<NavBar> {
             children: [
               Container(width: 50, height: 50, color: Colors.amber),
               Container(width: 50, height: 50, color: Colors.amber),
+              Container(),
+              Container(),
             ],
           ),
         ),
